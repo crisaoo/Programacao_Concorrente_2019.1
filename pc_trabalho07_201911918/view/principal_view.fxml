@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.Slider?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="687.0" prefWidth="868.0" xmlns="http://javafx.com/javafx" xmlns:fx="http://javafx.com/fxml" fx:controller="controller.PrincipalController">
+   <children>
+      <ImageView fitHeight="689.0" fitWidth="1003.0" layoutX="-50.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../assets/images/fundo.jpg" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="525.0" fitWidth="718.0" layoutX="162.0" layoutY="-106.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../assets/images/futurama.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="322.0" fitWidth="481.0" layoutX="-12.0" layoutY="250.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../assets/images/nave-equipe.png" />
+         </image>
+      </ImageView>
+      <AnchorPane layoutX="248.0" layoutY="210.0" prefHeight="453.0" prefWidth="616.0">
+         <children>
+            <ImageView fx:id="imgBender0" fitHeight="120.0" fitWidth="150.0" layoutX="299.0" layoutY="85.0" pickOnBounds="true" preserveRatio="true" />
+            <ImageView fx:id="imgBender1" fitHeight="120.0" fitWidth="150.0" layoutX="396.0" layoutY="85.0" pickOnBounds="true" preserveRatio="true" />
+            <ImageView fx:id="imgBender2" fitHeight="120.0" fitWidth="150.0" layoutX="470.0" layoutY="210.0" pickOnBounds="true" preserveRatio="true" />
+            <ImageView fitHeight="200.0" fitWidth="214.0" layoutX="289.0" layoutY="181.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../assets/images/mesa.png" />
+               </image>
+            </ImageView>
+            <ImageView fx:id="imgBender4" fitHeight="120.0" fitWidth="150.0" layoutX="299.0" layoutY="292.0" pickOnBounds="true" preserveRatio="true" />
+            <ImageView fx:id="imgBender3" fitHeight="120.0" fitWidth="150.0" layoutX="396.0" layoutY="292.0" pickOnBounds="true" preserveRatio="true" />
+            <ImageView fx:id="imgBender5" fitHeight="120.0" fitWidth="150.0" layoutX="219.0" layoutY="210.0" pickOnBounds="true" preserveRatio="true" />
+            <ImageView fx:id="imgGarfo0" fitHeight="16.0" fitWidth="35.0" layoutX="305.0" layoutY="212.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../assets/images/charuto.png" />
+               </image>
+            </ImageView>
+            <ImageView fx:id="imgGarfo2" fitHeight="16.0" fitWidth="35.0" layoutX="439.0" layoutY="212.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../assets/images/charuto.png" />
+               </image>
+            </ImageView>
+            <ImageView fx:id="imgGarfo4" fitHeight="16.0" fitWidth="35.0" layoutX="369.0" layoutY="297.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../assets/images/charuto.png" />
+               </image>
+            </ImageView>
+            <ImageView fx:id="imgGarfo1" fitHeight="32.0" fitWidth="63.0" layoutX="369.0" layoutY="182.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../assets/images/bebida.png" />
+               </image>
+            </ImageView>
+            <ImageView fx:id="imgGarfo3" fitHeight="32.0" fitWidth="63.0" layoutX="439.0" layoutY="266.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../assets/images/bebida.png" />
+               </image>
+            </ImageView>
+            <ImageView fx:id="imgGarfo5" fitHeight="32.0" fitWidth="63.0" layoutX="305.0" layoutY="266.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../assets/images/bebida.png" />
+               </image>
+            </ImageView>
+            <AnchorPane layoutX="287.0" layoutY="50.0" prefHeight="23.0" prefWidth="100.0">
+               <children>
+                  <Slider fx:id="sliderVel0" layoutY="28.0" max="10.0" min="1.0" prefHeight="14.0" prefWidth="86.0" value="5.0" />
+                  <Label layoutX="1.0" text="Velocidade">
+                     <font>
+                        <Font name="System Bold" size="16.0" />
+                     </font></Label>
+               </children>
+            </AnchorPane>
+            <AnchorPane layoutX="205.0" layoutY="170.0" prefHeight="23.0" prefWidth="100.0">
+               <children>
+                  <Slider fx:id="sliderVel5" layoutY="28.0" max="10.0" min="1.0" prefHeight="14.0" prefWidth="86.0" value="5.0" />
+                  <Label layoutX="1.0" text="Velocidade">
+                     <font>
+                        <Font name="System Bold" size="16.0" />
+                     </font></Label>
+               </children>
+            </AnchorPane>
+            <AnchorPane layoutX="410.0" layoutY="50.0" prefHeight="23.0" prefWidth="100.0">
+               <children>
+                  <Slider fx:id="sliderVel1" layoutY="28.0" max="10.0" min="1.0" prefHeight="14.0" prefWidth="86.0" value="5.0" />
+                  <Label layoutX="1.0" text="Velocidade">
+                     <font>
+                        <Font name="System Bold" size="16.0" />
+                     </font></Label>
+               </children>
+            </AnchorPane>
+            <AnchorPane layoutX="489.0" layoutY="170.0" prefHeight="23.0" prefWidth="100.0">
+               <children>
+                  <Slider fx:id="sliderVel2" layoutY="28.0" max="10.0" min="1.0" prefHeight="14.0" prefWidth="86.0" value="5.0" />
+                  <Label layoutX="1.0" text="Velocidade">
+                     <font>
+                        <Font name="System Bold" size="16.0" />
+                     </font></Label>
+               </children>
+            </AnchorPane>
+            <AnchorPane layoutX="410.0" layoutY="410.0" prefHeight="23.0" prefWidth="100.0">
+               <children>
+                  <Slider fx:id="sliderVel3" layoutY="28.0" max="10.0" min="1.0" prefHeight="14.0" prefWidth="86.0" value="5.0" />
+                  <Label layoutX="1.0" text="Velocidade">
+                     <font>
+                        <Font name="System Bold" size="16.0" />
+                     </font></Label>
+               </children>
+            </AnchorPane>
+            <AnchorPane layoutX="287.0" layoutY="410.0" prefHeight="23.0" prefWidth="100.0">
+               <children>
+                  <Slider fx:id="sliderVel4" layoutY="28.0" max="10.0" min="1.0" prefHeight="14.0" prefWidth="86.0" value="5.0" />
+                  <Label layoutX="1.0" text="Velocidade">
+                     <font>
+                        <Font name="System Bold" size="16.0" />
+                     </font></Label>
+               </children>
+            </AnchorPane>
+         </children>
+      </AnchorPane>
+      <AnchorPane layoutX="155.0" layoutY="580.0">
+         <children>
+            <Label text="Volume: ">
+               <font>
+                  <Font name="System Bold" size="25.0" />
+               </font>
+            </Label>
+            <Button layoutX="112.0" layoutY="6.0" mnemonicParsing="false" onAction="#diminuirVolume" prefWidth="35.0" text="-" />
+            <Button layoutX="150.0" layoutY="6.0" mnemonicParsing="false" onAction="#aumentarVolume" prefWidth="35.0" text="+" />
+         </children>
+      </AnchorPane>
+   </children>
+</AnchorPane>
