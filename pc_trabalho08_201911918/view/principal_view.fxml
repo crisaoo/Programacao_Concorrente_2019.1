@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.Slider?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="632.0" prefWidth="1029.0" xmlns="http://javafx.com/javafx" xmlns:fx="http://javafx.com/fxml" fx:controller="controller.PrincipalController">
+   <children>
+      <ImageView fitHeight="615.0" fitWidth="1031.0" layoutY="-3.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../assets/images/quadras-2.png" />
+         </image>
+      </ImageView>
+      <AnchorPane prefHeight="476.0" prefWidth="1031.0">
+         <children>
+            <ImageView fx:id="imgNezukoCinza" fitHeight="103.0" fitWidth="94.0" layoutX="-40.0" layoutY="-40.0" pickOnBounds="true" preserveRatio="true" />
+            <ImageView fx:id="imgNezukoMarrom" fitHeight="103.0" fitWidth="94.0" layoutX="-40.0" layoutY="-40.0" pickOnBounds="true" preserveRatio="true" />
+            <ImageView fx:id="imgNezukoRosa" fitHeight="103.0" fitWidth="94.0" layoutX="-40.0" layoutY="-40.0" pickOnBounds="true" preserveRatio="true" />
+            <ImageView fx:id="imgNezukoAzul" fitHeight="103.0" fitWidth="94.0" layoutX="-40.0" layoutY="-40.0" pickOnBounds="true" preserveRatio="true" />
+            <ImageView fx:id="imgNezukoPreto" fitHeight="103.0" fitWidth="94.0" layoutX="-40.0" layoutY="-40.0" pickOnBounds="true" preserveRatio="true" />
+            <ImageView fx:id="imgNezukoVermelho" fitHeight="103.0" fitWidth="94.0" layoutX="-40.0" layoutY="-40.0" pickOnBounds="true" preserveRatio="true" />
+            <ImageView fx:id="imgNezukoAmarelo" fitHeight="103.0" fitWidth="94.0" layoutX="-40.0" layoutY="-40.0" pickOnBounds="true" preserveRatio="true" />
+            <ImageView fx:id="imgNezukoVerde" fitHeight="103.0" fitWidth="94.0" layoutX="-40.0" layoutY="-40.0" pickOnBounds="true" preserveRatio="true" />
+         </children>
+      </AnchorPane>
+      <AnchorPane layoutX="14.0" layoutY="489.0">
+         <children>
+            <Label text="Velocidades:">
+               <font>
+                  <Font name="System Bold" size="18.0" />
+               </font>
+            </Label>
+            <AnchorPane layoutX="126.0" layoutY="6.0">
+               <children>
+                  <ImageView fitHeight="27.0" fitWidth="32.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../assets/images/cor-cinza.png" />
+                     </image>
+                  </ImageView>
+                  <Slider fx:id="velocidadeCinza" layoutX="37.0" layoutY="7.0" min="5.0" nodeOrientation="RIGHT_TO_LEFT" value="25.0" />
+               </children>
+            </AnchorPane>
+            <AnchorPane layoutX="126.0" layoutY="43.0">
+               <children>
+                  <ImageView fitHeight="27.0" fitWidth="32.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../assets/images/cor-marrom.png" />
+                     </image>
+                  </ImageView>
+                  <Slider fx:id="velocidadeMarrom" layoutX="37.0" layoutY="6.0" min="5.0" nodeOrientation="RIGHT_TO_LEFT" value="25.0" />
+               </children>
+            </AnchorPane>
+            <AnchorPane layoutX="326.0" layoutY="6.0">
+               <children>
+                  <ImageView fitHeight="27.0" fitWidth="32.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../assets/images/cor-rosa.png" />
+                     </image>
+                  </ImageView>
+                  <Slider fx:id="velocidadeRosa" layoutX="37.0" layoutY="7.0" min="5.0" nodeOrientation="RIGHT_TO_LEFT" value="25.0" />
+               </children>
+            </AnchorPane>
+            <AnchorPane layoutX="326.0" layoutY="43.0">
+               <children>
+                  <ImageView fitHeight="27.0" fitWidth="32.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../assets/images/cor-azul.png" />
+                     </image>
+                  </ImageView>
+                  <Slider fx:id="velocidadeAzul" layoutX="37.0" layoutY="6.0" min="5.0" nodeOrientation="RIGHT_TO_LEFT" value="25.0" />
+               </children>
+            </AnchorPane>
+            <AnchorPane layoutX="526.0" layoutY="6.0">
+               <children>
+                  <ImageView fitHeight="27.0" fitWidth="32.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../assets/images/cor-preto.png" />
+                     </image>
+                  </ImageView>
+                  <Slider fx:id="velocidadePreto" layoutX="37.0" layoutY="7.0" min="5.0" nodeOrientation="RIGHT_TO_LEFT" value="25.0" />
+               </children>
+            </AnchorPane>
+            <AnchorPane layoutX="526.0" layoutY="43.0">
+               <children>
+                  <ImageView fitHeight="27.0" fitWidth="32.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../assets/images/cor-vermelho.png" />
+                     </image>
+                  </ImageView>
+                  <Slider fx:id="velocidadeVermelho" layoutX="37.0" layoutY="6.0" min="5.0" nodeOrientation="RIGHT_TO_LEFT" value="25.0" />
+               </children>
+            </AnchorPane>
+            <AnchorPane layoutX="726.0" layoutY="6.0">
+               <children>
+                  <ImageView fitHeight="27.0" fitWidth="32.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../assets/images/cor-amarelo.png" />
+                     </image>
+                  </ImageView>
+                  <Slider fx:id="velocidadeAmarelo" layoutX="37.0" layoutY="7.0" min="5.0" nodeOrientation="RIGHT_TO_LEFT" value="25.0" />
+               </children>
+            </AnchorPane>
+            <AnchorPane layoutX="726.0" layoutY="43.0">
+               <children>
+                  <ImageView fitHeight="27.0" fitWidth="32.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../assets/images/cor-verde.png" />
+                     </image>
+                  </ImageView>
+                  <Slider fx:id="velocidadeVerde" layoutX="37.0" layoutY="6.0" min="5.0" nodeOrientation="RIGHT_TO_LEFT" value="25.0" />
+               </children>
+            </AnchorPane>
+         </children>
+      </AnchorPane>
+      <AnchorPane layoutX="14.0" layoutY="573.0">
+         <children>
+            <Label text="Volume:">
+               <font>
+                  <Font name="System Bold" size="18.0" />
+               </font>
+            </Label>
+            <Button layoutX="81.0" layoutY="1.0" mnemonicParsing="false" onAction="#diminuirVolume" prefWidth="35.0" text="-" />
+            <Button layoutX="126.0" layoutY="1.0" mnemonicParsing="false" onAction="#aumentarVolume" prefWidth="35.0" text="+" />
+         </children>
+      </AnchorPane>
+   </children>
+</AnchorPane>

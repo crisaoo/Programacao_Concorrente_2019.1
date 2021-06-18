@@ -1,0 +1,41 @@
+.button {
+    -fx-background-color: #f7a101;
+    -fx-text-fill: #e5e5e5;
+    -fx-padding: 5;
+}
+
+.button:pressed {
+    -fx-background-color: #b67e17;
+}
+
+.sliderCinza{
+    -fx-background-color: #9591a3;
+}
+
+.sliderMarrom{
+    -fx-background-color: #6b5525;
+}
+
+.sliderRosa{
+    -fx-background-color: #e430e4;
+}
+
+.sliderAzul{
+    -fx-background-color: #3803f7;
+}
+
+.sliderPreto{
+    -fx-background-color: #000000;
+}
+
+.sliderVermelho{
+    -fx-background-color: #ff0000;
+}
+
+.sliderAmarelo{
+    -fx-background-color: #e7ff0d;
+}
+
+.sliderVerde{
+    -fx-background-color: #00ff0d;
+}
